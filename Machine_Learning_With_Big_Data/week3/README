@@ -1,0 +1,37 @@
+A simple Market Basket Analysis Use Case can be found attached in this question:
+associationrules.zip
+
+Import this workflow into KNIME and start exploring different ways to train and built a set of association Rules with specified support and accuracy.
+
+Answer the following questions in the quiz below:
+
+Which item has the highest support in the shopping list example training data set that came with the association rule example?
+
+Download the supermarket training data set attached here and create your own Association Rule mining workflow (you can reuse the workflow you downloaded in the previous question). Ensure that the read column header parameters is checked and that the training data set satisfies the KNIME formatting requirement of the BitVector representation for the market basked analysis.
+supermarketdataset.csv
+
+If you set the Association Rule Learner parameters to:
+
+Minimum support=0.1
+
+Underlying Data structure=Array
+
+Itemset type = CLOSED
+
+Max itemset length=10
+
+output Association rules - checked
+
+Minimum confidence = 0.8
+
+How many rules were found implying (->) "party snack foods" in the consequence field?
+
+If we keep the same parameters as in Question #2 except change the minimum support to 0.15 how many rules are found?
+Correct
+
+For extra practice refer to the:
+
+https://www.knime.org/blog/market-basket-analysis-and-recommendation-engines
+
+and built your own personal engine!
+
